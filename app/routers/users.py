@@ -5,6 +5,6 @@ router = APIRouter(prefix="/usuarios", tags=["Usuários"])
 
 @router.post("/login")
 async def login():
-    return{"mensagem:" "Login do usuário"}
+    return{"mensagem": "Login do usuário"}
 
 #URL final: http: //seu_servidor/usuarios/login

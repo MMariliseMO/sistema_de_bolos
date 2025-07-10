@@ -8,4 +8,4 @@ app.include_router(orders.router)
 
 @app.get("/")
 async def root():
-    return {"message" : "Bem-vindo(a) à minha API!"}
+    return {"message": "Bem-vindo(a) à minha API!"}
